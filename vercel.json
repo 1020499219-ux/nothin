@@ -1,0 +1,106 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "vite",
+  "installCommand": "npm ci",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist/client",
+  "trailingSlash": false,
+  "rewrites": [
+    {
+      "source": "/method",
+      "destination": "/method/index.html"
+    },
+    {
+      "source": "/awards",
+      "destination": "/awards/index.html"
+    },
+    {
+      "source": "/studio",
+      "destination": "/studio/index.html"
+    },
+    {
+      "source": "/works",
+      "destination": "/works/index.html"
+    },
+    {
+      "source": "/works/lgm",
+      "destination": "/works/lgm/index.html"
+    },
+    {
+      "source": "/works/aurbse",
+      "destination": "/works/aurbse/index.html"
+    },
+    {
+      "source": "/works/haptify",
+      "destination": "/works/haptify/index.html"
+    },
+    {
+      "source": "/works/mova",
+      "destination": "/works/mova/index.html"
+    },
+    {
+      "source": "/works/in-cognita",
+      "destination": "/works/in-cognita/index.html"
+    },
+    {
+      "source": "/works/utopia",
+      "destination": "/works/utopia/index.html"
+    },
+    {
+      "source": "/works/france-chimie",
+      "destination": "/works/france-chimie/index.html"
+    },
+    {
+      "source": "/faq-questions/social-media-content-luxury",
+      "destination": "/faq-questions/social-media-content-luxury/index.html"
+    },
+    {
+      "source": "/faq-questions/how-to-brief-a-branding-studio",
+      "destination": "/faq-questions/how-to-brief-a-branding-studio/index.html"
+    },
+    {
+      "source": "/faq-questions/brand-event-paris",
+      "destination": "/faq-questions/brand-event-paris/index.html"
+    },
+    {
+      "source": "/faq-questions/ai-in-luxury-branding",
+      "destination": "/faq-questions/ai-in-luxury-branding/index.html"
+    },
+    {
+      "source": "/faq-questions/luxury-website-cost",
+      "destination": "/faq-questions/luxury-website-cost/index.html"
+    },
+    {
+      "source": "/faq-questions/brand-identity-timeline",
+      "destination": "/faq-questions/brand-identity-timeline/index.html"
+    },
+    {
+      "source": "/faq-questions/branding-studio-or-advertising-agency",
+      "destination": "/faq-questions/branding-studio-or-advertising-agency/index.html"
+    },
+    {
+      "source": "/faq-questions/paid-social-ads-luxury",
+      "destination": "/faq-questions/paid-social-ads-luxury/index.html"
+    },
+    {
+      "source": "/faq-questions/how-much-does-a-brand-identity-cost",
+      "destination": "/faq-questions/how-much-does-a-brand-identity-cost/index.html"
+    },
+    {
+      "source": "/faq-questions/influencer-marketing-luxury",
+      "destination": "/faq-questions/influencer-marketing-luxury/index.html"
+    },
+    {
+      "source": "/faq-questions/luxury-website",
+      "destination": "/faq-questions/luxury-website/index.html"
+    },
+    {
+      "source": "/faq-questions/advertising-campaign-cost",
+      "destination": "/faq-questions/advertising-campaign-cost/index.html"
+    },
+    {
+      "source": "/faq-questions/me-and-ai-can-it-really-work",
+      "destination": "/faq-questions/me-and-ai-can-it-really-work/index.html"
+    }
+  ]
+}
